@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <title>seth basham.</title>
+</head>
+<body>
+    <nav class="py-4 bg-slate-800">
+        <div class="items-center">
+            <div class="container mx-auto flex justify-between items-center px-4">
+                <div class="logo">
+                    <h2 class="text-3xl font-light text-white"><a href="#">sethbasham.</a></h2>
+                </div>
+                <div class="hidden items-center space-x-3 text-xl text-white md:flex">
+                    <a href="index.html" class="hover:text-sky-500 active:text-sky-500">home.</a>
+                    <a href="#" class="hover:text-sky-500 active:text-sky-500">about.</a>
+                    <a href="#" class="hover:text-sky-500 active:text-sky-500">portfolio.</a>
+                    <a href="#" class="hover:text-sky-500 active:text-sky-500">contact.</a>
+                    <a href="#" class="hover:text-sky-500 active:text-sky-500">blog.</a>
+                </div>
+                <button id="menu-btn" class="hamburger justify-end md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Links -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-6 space-y-6 bg-slate-800 text-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md rounded-md">
+                <a href="index.html" class="hover:text-sky-500 active:text-sky-500">home.</a>
+                <a href="#" class="hover:text-sky-500 active:text-sky-500">about.</a>
+                <a href="#" class="hover:text-sky-500 active:text-sky-500">portfolio.</a>
+                <a href="#" class="hover:text-sky-500 active:text-sky-500">contact.</a>
+                <a href="#" class="hover:text-sky-500 active:text-sky-500">blog.</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero bg-slate-200 h-96">
+        <div class="container flex mx-auto px-4 pt-4 flex justify-center">
+            <img src="https://i.pravatar.cc/200?img=69" class="rounded-full h-32 md:h-44" alt="">
+        </div>
+        <div class="container flex mx-auto items-center justify-center pt-4">
+            <h1 class="font-bold text-slate-800">Hello There, I'm</h1>
+            <h1 class="font-bold text-3xl">Firstname <span class="text-sky-500">Lastname</span></h1>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
